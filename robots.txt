@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uchet-bunkerov.veridok.ru/sitemap.xml
