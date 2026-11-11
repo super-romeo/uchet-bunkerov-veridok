@@ -8,6 +8,10 @@
 <meta name="description" content="Для фирм аренды бункеров 8–27 м³: где стоит каждый бункер, заявки на установку, замену и вывоз, отметка водителя по QR-наклейке с фото.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Бункеры на учёте</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Бункеры на учёте</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Где сейчас каждый бункер, у какого клиента и сколько он там стоит — без обзвона водителей</h1>
-    <p class="sub">Для фирм, которые сдают бункеры 8–27 м³ под строительный мусор: заявки на установку, замену и вывоз, приложение водителя с отметкой по QR-наклейке и фото, и карта всех бункеров у клиентов.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для фирм, которые сдают бункеры</p>
+      <h1 class="rise" style="--i:1" data-len="long">Где сейчас каждый бункер, у какого клиента и сколько он там стоит&nbsp;<span class="soft">— без обзвона водителей</span></h1>
+      <p class="rise" style="--i:2">Для фирм, которые сдают бункеры 8–27 м³ под строительный мусор: заявки на установку, замену и вывоз, приложение водителя с отметкой по QR-наклейке и фото, и карта всех бункеров у клиентов.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">Бункеры</text><line x1="120" y1="220" x2="1080" y2="220" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="270" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><text x="200" y="302" font-size="32" fill="#566174">Заявки</text><rect x="130" y="360" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="370" width="240" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="450" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="460" width="360" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="540" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="550" width="200" height="22" rx="8" fill="#dfe8f7" /><rect x="700" y="270" width="370" height="390" rx="20" fill="#dfe8f7" /><text x="730" y="340" font-size="34" font-weight="600" fill="#0a1524">карта</text><rect x="740" y="500" width="46" height="120" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="820" y="400" width="46" height="220" rx="8" fill="#12397a" stroke="#b9c3d2" stroke-width="3" /><rect x="900" y="460" width="46" height="160" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="980" y="530" width="46" height="90" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Фирмы аренды бункеров</dd></div>
+      <div><dt>Учёт</dt><dd>Ясный учёт</dd></div>
+      <div><dt>Как</dt><dd>Сканирует QR-наклейку</dd></div>
+      <div><dt>Пока</dt><dd>Сейчас он в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Каждый бункер на учёте</b><span>Объём, номер и QR-наклейка, у кого и где стоит.</span><br><a class="btn" href="price.html" data-ev="feature_bunkery">Мне это нужно</a></div>
-      <div class="card"><b>Заявки</b><span>Установка, замена и вывоз — с адресом и временем.</span><br><a class="btn" href="price.html" data-ev="feature_zayavki">Мне это нужно</a></div>
-      <div class="card"><b>Приложение водителя</b><span>Скан QR-наклейки и фото на месте.</span><br><a class="btn" href="price.html" data-ev="feature_voditel">Мне это нужно</a></div>
-      <div class="card"><b>Сроки у клиента</b><span>Сколько дней бункер стоит на объекте.</span><br><a class="btn" href="price.html" data-ev="feature_prostoy">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="160" y="60" width="480" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="200" y="140" font-size="34" font-weight="600" fill="#0a1524">QR-наклейка</text><rect x="200" y="190" width="360" height="20" rx="8" fill="#dde2ea" /><rect x="200" y="240" width="300" height="20" rx="8" fill="#b9c3d2" /><rect x="200" y="290" width="380" height="20" rx="8" fill="#dde2ea" /><rect x="200" y="340" width="240" height="20" rx="8" fill="#dfe8f7" /><circle cx="520" cy="450" r="42" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="500,444 512,458 532,434" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Каждый бункер на учёте</h3><p>Объём, номер и QR-наклейка, у кого и где стоит.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_bunkery">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Заявки</text><rect x="130" y="230" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="242" width="340" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="330" width="48" height="48" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><polyline points="140,356 150,366 168,344" fill="none" stroke="#ffffff" stroke-width="6" /><rect x="210" y="342" width="290" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="430" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="442" width="240" height="24" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Заявки</h3><p>Установка, замена и вывоз — с адресом и временем.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zayavki">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="110" font-size="32" font-weight="600" fill="#0a1524">фото</text><rect x="250" y="160" width="300" height="380" rx="36" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="330" y="184" width="140" height="16" rx="8" fill="#dde2ea" /><rect x="280" y="230" width="240" height="70" rx="16" fill="#dfe8f7" /><rect x="280" y="320" width="200" height="20" rx="8" fill="#dde2ea" /><rect x="280" y="356" width="150" height="20" rx="8" fill="#b9c3d2" /><rect x="280" y="430" width="240" height="52" rx="16" fill="#12397a" /></svg></div>
+        <h3>Приложение водителя</h3><p>Скан QR-наклейки и фото на месте.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_voditel">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="90" y="70" width="620" height="470" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="150" font-size="34" font-weight="600" fill="#0a1524">дней</text><rect x="130" y="180" width="540" height="16" rx="6" fill="#12397a" /><rect x="140" y="230" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="230" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="420" y="230" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="560" y="230" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="320" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="320" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="420" y="320" width="90" height="60" rx="8" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="560" y="320" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="410" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="280" y="410" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="420" y="410" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="560" y="410" width="90" height="60" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Сроки у клиента</h3><p>Сколько дней бункер стоит на объекте.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_prostoy">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Фирма в Подмосковье сдаёт сорок бункеров по 8 и 20 м³ и работает с тремя водителями. Прораб звонит: нужна замена на объекте в Мытищах. Диспетчер создаёт заявку, водитель видит её в приложении, на месте сканирует наклейку старого бункера, фотографирует новый и отмечает замену. В конце недели диспетчер видит, что два бункера стоят у клиентов больше месяца, и звонит им про вывоз.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Фирма в Подмосковье сдаёт сорок бункеров по 8 и 20 м³ и работает с тремя водителями. Прораб звонит: нужна замена на объекте в Мытищах. Диспетчер создаёт заявку, водитель видит её в приложении, на месте сканирует наклейку старого бункера, фотографирует новый и отмечает замену. В конце недели диспетчер видит, что два бункера стоят у клиентов больше месяца, и звонит им про вывоз.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Мытищах</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">замену</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">вывоз</text><rect x="120" y="320" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">диспетчер</text><rect x="170" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="350" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="440" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="620" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="710" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="580" width="520" height="24" rx="8" fill="#dde2ea" /><rect x="170" y="630" width="340" height="24" rx="8" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Фирма, которая сдаёт бункеры под строительный мусор, держит парк контейнеров на 8, 20, 27 кубометров и несколько машин-бункеровозов. Бункеры стоят у клиентов на стройках, у частных домов, на объектах ремонта — и всё время перемещаются.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Фирма, которая сдаёт бункеры под строительный мусор, держит парк контейнеров на 8, 20, 27 кубометров и несколько машин-бункеровозов. Бункеры стоят у клиентов на стройках, у частных домов, на объектах ремонта — и всё время перемещаются.</p>
     <p>Пока бункеров двадцать, их держат в голове или в таблице. Когда их сорок, восемьдесят, сто, начинаются вопросы: где сейчас бункер номер такой-то, давно ли он стоит у клиента, был ли вывоз по этой заявке, почему водитель приехал на пустую площадку.</p>
     <p>Готовые программы для вывоза отходов есть, но многие из них рассчитаны на мусоровывозящие компании с большим парком и требуют покупки лицензии или доработки учётной системы. Небольшой фирме аренды бункеров нужен прежде всего ясный учёт: где что стоит и какие заявки в работе.</p>
     <p>Сервис начинается с парка. Каждый бункер заводится с объёмом и номером, на него клеится QR-наклейка. С этого момента у бункера есть история: когда и куда его поставили, когда заменили, когда забрали.</p>
@@ -106,31 +140,34 @@
     <p>Начать можно постепенно: сначала завести бункеры и наклеить QR-наклейки, затем перевести на приложение одного водителя и через неделю — остальных. Прежняя таблица не нужна в тот же день.</p>
     <p>Данные клиентов и фото используются только для учёта бункеров и заявок и не передаются третьим лицам.</p>
     <p>Сервис рассчитан на фирмы аренды бункеров под строительный мусор в России. Сейчас он в подготовке: сначала мы проверяем, нужен ли он таким фирмам.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Какие бункеры можно вести?</h3>
-    <p>Любого объёма — обычно от 8 до 27 кубометров; у каждого свой номер и QR-наклейка.</p>
-    <h3>Что делает водитель на месте?</h3>
-    <p>Открывает заявку в приложении, сканирует QR-наклейку бункера и делает фото.</p>
-    <h3>Видно ли, сколько бункер стоит у клиента?</h3>
-    <p>Да. По каждому бункеру видно число дней у клиента, а в конце месяца — сводка по клиентам.</p>
-    <h3>Нужна ли покупка лицензии?</h3>
-    <p>Нет. Сервис работает по месячной подписке, водители входят в тариф.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет — в подготовке. Сначала мы проверяем, нужен ли сервис фирмам аренды бункеров.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Какие бункеры можно вести?</h3><p>Любого объёма — обычно от 8 до 27 кубометров; у каждого свой номер и QR-наклейка.</p></div>
+      <div class="split flip"><h3>Что делает водитель на месте?</h3><p>Открывает заявку в приложении, сканирует QR-наклейку бункера и делает фото.</p></div>
+      <div class="split flip"><h3>Видно ли, сколько бункер стоит у клиента?</h3><p>Да. По каждому бункеру видно число дней у клиента, а в конце месяца — сводка по клиентам.</p></div>
+      <div class="split flip"><h3>Нужна ли покупка лицензии?</h3><p>Нет. Сервис работает по месячной подписке, водители входят в тариф.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет — в подготовке. Сначала мы проверяем, нужен ли сервис фирмам аренды бункеров.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Сколько у вас бункеров</h2>
-    <p><label>Бункеров в парке<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>До 30</option><option>30–100</option><option>100–300</option><option>Больше 300</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Сколько у вас бункеров</h2>
+    </div>
+    <div class="tile stack">
+      <label>Бункеров в парке<select data-ev-focus="form_start"><option value="">— выберите —</option><option>До 30</option><option>30–100</option><option>100–300</option><option>Больше 300</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Бункеры на учёте</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Учёт бункеров и заявок по вашим данным. Сервис не перевозит отходы и не отвечает за их размещение.</p>
+  <p>Учёт бункеров и заявок по вашим данным. Сервис не перевозит отходы и не отвечает за их размещение.</p>
 </div></footer>
 
 </body>
